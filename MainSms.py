@@ -21,7 +21,7 @@ class MainSms:
     def __init__(self):
         print('stuff')
 
-    def handleSms(sms):
+    def handleSms(self, sms):
         print(
             u'== SMS message received ==\nFrom: {0}\nTime: {1}\nMessage:\n{2}\n'.format(sms.number, sms.time, sms.text))
         print('Replying to SMS...')
@@ -36,13 +36,13 @@ class MainSms:
         modem.smsTextMode = False
         modem.connect(PIN)
 
-        modem.sendSms("+923342132778", "Text SMS", False, 15, False)
-        # print('Waiting for SMS message...')
-        # try:
-        #     modem.rxThread.join(2 ** 20)  # Specify a (huge) timeout so that it essentially blocks indefinitely,
-        #     # but still receives CTRL+C interrupt signal
-        # finally:
-        #     modem.close()
+        # modem.sendSms("+923342132778", "Text SMS", False, 15, False)
+        print('Waiting for SMS message...')
+        try:
+            modem.rxThread.join(2 ** 20)  # Specify a (huge) timeout so that it essentially blocks indefinitely,
+            # but still receives CTRL+C interrupt signal
+        finally:
+            modem.close()
 
 
 if __name__ == '__main__':

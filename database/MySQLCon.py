@@ -4,32 +4,23 @@ import pymysql.cursors
 class MySQLCon:
     def __init__(self):
         print("In MySQL Constructor")
+        self.connection = pymysql.connect(host='localhost',
+                                          user='crm',
+                                          password='crm123!@#',
+                                          db='dist_network',
+                                          charset='utf8mb4',
+                                          cursorclass=pymysql.cursors.DictCursor)
 
-    @staticmethod
-    def connectToDatabase():
-        # Connect to the database
-        connection = pymysql.connect(host='localhost',
-                                     user='crm',
-                                     password='crm123!@#',
-                                     db='dist_network',
-                                     charset='utf8mb4',
-                                     cursorclass=pymysql.cursors.DictCursor)
-
+    def checkForSignUpRequests(self):
         try:
-            # with connection.cursor() as cursor:
-            #     # Create a new record
-            #     sql = "INSERT INTO `users` (`email`, `password`) VALUES (%s, %s)"
-            #     cursor.execute(sql, ('webmaster@python.org', 'very-secret'))
-            #
-            # # connection is not autocommit by default. So you must commit to save
-            # # your changes.
-            # connection.commit()
-
-            with connection.cursor() as cursor:
+            # Check for new phones that have not been verified i.e 1) rows where OTAC are empty 2) Verified is False
+            with self.connection.cursor() as cursor:
                 # Read a single record
-                sql = "SELECT * FROM `distributor_list` WHERE `dno`=%s"
-                cursor.execute(sql, '1')
-                result = cursor.fetchone()
-                print(result)
+                sql = ("SELECT PHONE, OTAC, VERIFIED FROM otac_requests " +
+                       " WHERE otac = '' " +
+                       " AND VERIFIED = FALSE ")
+                cursor.execute(sql)
+                result = cursor.fetchall()
+                return result
         finally:
-            connection.close()
+            self.connection.close()
