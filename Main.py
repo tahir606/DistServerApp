@@ -15,5 +15,5 @@ if __name__ == '__main__':  # this is the main function java equivalent of stati
 
     otac = OTACGen()
     otac.generateOTAC()
-
+    
 
