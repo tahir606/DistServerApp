@@ -1,1 +1,3 @@
-1. Install MySQLDb.exe https://sourceforge.net/projects/mysql-python/files/mysql-python/1.2.3/MySQL-python-1.2.3.win32-py2.7.msi/download
+For UI (with pip)
+1. Install pyqt
+2. intall pyqt tools 
