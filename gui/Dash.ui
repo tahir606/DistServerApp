@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>277</width>
-    <height>131</height>
+    <width>363</width>
+    <height>223</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -41,8 +41,8 @@
    <widget class="QPushButton" name="startBtn">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>60</y>
+      <x>20</x>
+      <y>150</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -54,8 +54,8 @@
    <widget class="QPushButton" name="exitBtn">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>60</y>
+      <x>270</x>
+      <y>150</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -64,18 +64,49 @@
      <string>Exit</string>
     </property>
    </widget>
+   <widget class="QLabel" name="displayMsg">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>341</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri Light</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Process Messages.</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>277</width>
+     <width>363</width>
      <height>21</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionSettings"/>
+   </widget>
+   <addaction name="menuFile"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSettings">
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
