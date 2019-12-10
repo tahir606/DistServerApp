@@ -7,7 +7,7 @@ class MySQLCon:
 
     def connectToDB(self):
         try:
-            connection = pymysql.connect(host='localhost',
+            connection = pymysql.connect(host='192.168.100.24',
                                          user='crm',
                                          password='crm123!@#',
                                          db='dist_network',
@@ -26,7 +26,7 @@ class MySQLCon:
             # Check for new phones that have not been verified i.e 1) rows where OTAC are empty 2) Verified is False
             with connection.cursor() as cursor:
                 # Read a single record
-                sql = ("SELECT PHONE, EMAIL FROM otac_requests " +
+                sql = ("SELECT NO, PHONE, EMAIL FROM otac_requests " +
                        " WHERE otac = ''"
                        " OR otac IS NULL " +
                        " AND VERIFIED = FALSE ")
@@ -59,21 +59,23 @@ class MySQLCon:
         finally:
             connection.close()
 
-    def updateOTACwithPhone(self, otac, phone):
-        print('otac: ' + otac + '\n' + 'phone: ' + phone)
+    def updateOTACwithPhone(self, otac, phone, id):
+        print('otac: ' + otac + '\nphone: ' + phone + '\nno: ' + id)
         connection = self.connectToDB()
         if connection is None:
             return
         try:
             with connection.cursor() as cursor:
-                sql = ("UPDATE OTAC_REQUESTS " +
-                       " SET OTAC = '%s' "
-                       " WHERE PHONE = '%s'"
-                       " AND OTAC IS NULL" % (otac, phone))
+                sql = (("UPDATE OTAC_REQUESTS " +
+                        " SET OTAC = '{0}' " +
+                        " WHERE PHONE = '{1}' " +
+                        " AND NO = '{2}' " +
+                        " AND OTAC IS NULL").format(otac, phone, id))
                 cursor.execute(sql)
                 connection.commit()
         except Exception as e:
             connection.rollback()
+            print('Exception in updateOTAC')
             print(e)
             raise e
         finally:

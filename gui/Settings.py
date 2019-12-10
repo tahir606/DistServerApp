@@ -1,10 +1,11 @@
+import os
 import sys
 
 from PyQt5 import QtWidgets, uic, QtCore
 
 from prog.FileHandler import FileHandler
 
-qtCreatorFile = "settings.ui"  # Enter file here.
+qtCreatorFile = "./gui/settings.ui"  # Enter file here.
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
 

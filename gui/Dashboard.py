@@ -6,7 +6,11 @@ from PyQt5 import QtWidgets, uic
 from PyQt5.QtCore import QThread, pyqtSignal
 from PyQt5.uic.properties import QtCore
 
-from database.MySQLCon import MySQLCon
+try:
+    from database.MySQLCon import MySQLCon
+except ImportError:
+    from . import MySQLCon
+
 from gui.QTDash import Ui_MainWindow
 from gui.Settings import Settings
 from prog.EmailHandler import EmailHandler
@@ -22,6 +26,7 @@ class ProcessSignUpRequests(QThread):
 
     def __init__(self):
         QThread.__init__(self)
+        self.id = ''
         self.phone = ''
         self.emailAddress = ''
 
@@ -40,9 +45,10 @@ class ProcessSignUpRequests(QThread):
                 for row in result:
                     key = otac.generateOTAC()
                     # Save OTAC with phone number
-                    sql.updateOTACwithPhone(key, self.phone)
+                    self.id = row['NO']
                     self.phone = row['PHONE']
                     self.emailAddress = row['EMAIL']
+                    sql.updateOTACwithPhone(key, self.phone, self.id)
                     email.sendEmail(self.emailAddress, 'Dist Network OTAC',
                                     "Distributors Network\nPlease enter the following OTAC to authenticate "
                                     "your login:\n " + key)

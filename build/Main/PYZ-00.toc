@@ -1,0 +1,865 @@
+('E:\\work\\AndroidStudio\\DistSociety\\DistServerApp\\build\\Main\\PYZ-00.pyz',
+ [('ntpath',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\datetime.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\typing.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\__future__.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\difflib.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ast.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\inspect.py',
+   'PYMODULE'),
+  ('cmd',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\cmd.py',
+   'PYMODULE'),
+  ('bdb',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\bdb.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\opcode.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\dis.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\codeop.py',
+   'PYMODULE'),
+  ('code',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\code.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\glob.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\shlex.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\runpy.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\netrc.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('plistlib',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\platform.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\tty.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('html',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('socketserver',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('http.server',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('optparse',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\optparse.py',
+   'PYMODULE'),
+  ('uu',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\uu.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\quopri.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\calendar.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\base64.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\bisect.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\random.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\bz2.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\lzma.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\_compression.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\gzip.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\shutil.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\socket.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('pydoc',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\getopt.py',
+   'PYMODULE'),
+  ('pdb',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pdb.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\string.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('doctest',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\doctest.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pprint.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pickle.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('stat',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\stat.py',
+   'PYMODULE'),
+  ('genericpath',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('posixpath',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\signal.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\selectors.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\token.py',
+   'PYMODULE'),
+  ('struct',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\struct.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\gettext.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\copy.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\argparse.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('sms.SMSHandler',
+   'E:\\work\\AndroidStudio\\DistSociety\\DistServerApp\\sms\\SMSHandler.py',
+   'PYMODULE'),
+  ('sms',
+   'E:\\work\\AndroidStudio\\DistSociety\\DistServerApp\\sms\\__init__.py',
+   'PYMODULE'),
+  ('prog.FileHandler',
+   'E:\\work\\AndroidStudio\\DistSociety\\DistServerApp\\prog\\FileHandler.py',
+   'PYMODULE'),
+  ('prog',
+   'E:\\work\\AndroidStudio\\DistSociety\\DistServerApp\\prog\\__init__.py',
+   'PYMODULE'),
+  ('gsmmodem.modem',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\gsmmodem\\modem.py',
+   'PYMODULE'),
+  ('gsmmodem',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\gsmmodem\\__init__.py',
+   'PYMODULE'),
+  ('gsmmodem.compat',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\gsmmodem\\compat.py',
+   'PYMODULE'),
+  ('gsmmodem.util',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\gsmmodem\\util.py',
+   'PYMODULE'),
+  ('gsmmodem.pdu',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\gsmmodem\\pdu.py',
+   'PYMODULE'),
+  ('gsmmodem.exceptions',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\gsmmodem\\exceptions.py',
+   'PYMODULE'),
+  ('gsmmodem.serial_comms',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\gsmmodem\\serial_comms.py',
+   'PYMODULE'),
+  ('serial',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\serial\\__init__.py',
+   'PYMODULE'),
+  ('serial.serialjava',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\serial\\serialjava.py',
+   'PYMODULE'),
+  ('serial.serialposix',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\serial\\serialposix.py',
+   'PYMODULE'),
+  ('serial.serialwin32',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\serial\\serialwin32.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('serial.win32',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\serial\\win32.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('serial.serialcli',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\serial\\serialcli.py',
+   'PYMODULE'),
+  ('serial.serialutil',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\serial\\serialutil.py',
+   'PYMODULE'),
+  ('sms.OTACGen',
+   'E:\\work\\AndroidStudio\\DistSociety\\DistServerApp\\sms\\OTACGen.py',
+   'PYMODULE'),
+  ('prog.EmailHandler',
+   'E:\\work\\AndroidStudio\\DistSociety\\DistServerApp\\prog\\EmailHandler.py',
+   'PYMODULE'),
+  ('email.mime.text',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\mime\\text.py',
+   'PYMODULE'),
+  ('email.mime',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\mime\\__init__.py',
+   'PYMODULE'),
+  ('email.mime.nonmultipart',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\mime\\nonmultipart.py',
+   'PYMODULE'),
+  ('email.mime.base',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\mime\\base.py',
+   'PYMODULE'),
+  ('email.mime.multipart',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\email\\mime\\multipart.py',
+   'PYMODULE'),
+  ('smtplib',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\smtplib.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\hmac.py',
+   'PYMODULE'),
+  ('gui.Settings',
+   'E:\\work\\AndroidStudio\\DistSociety\\DistServerApp\\gui\\Settings.py',
+   'PYMODULE'),
+  ('gui',
+   'E:\\work\\AndroidStudio\\DistSociety\\DistServerApp\\gui\\__init__.py',
+   'PYMODULE'),
+  ('database.MySQLCon',
+   'E:\\work\\AndroidStudio\\DistSociety\\DistServerApp\\database\\MySQLCon.py',
+   'PYMODULE'),
+  ('database',
+   'E:\\work\\AndroidStudio\\DistSociety\\DistServerApp\\database\\__init__.py',
+   'PYMODULE'),
+  ('pymysql.cursors',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\cursors.py',
+   'PYMODULE'),
+  ('pymysql.err',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\err.py',
+   'PYMODULE'),
+  ('pymysql.constants.ER',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\constants\\ER.py',
+   'PYMODULE'),
+  ('pymysql.constants',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\constants\\__init__.py',
+   'PYMODULE'),
+  ('pymysql.constants.SERVER_STATUS',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\constants\\SERVER_STATUS.py',
+   'PYMODULE'),
+  ('pymysql.constants.CR',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\constants\\CR.py',
+   'PYMODULE'),
+  ('pymysql.constants.COMMAND',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\constants\\COMMAND.py',
+   'PYMODULE'),
+  ('pymysql.constants.CLIENT',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\constants\\CLIENT.py',
+   'PYMODULE'),
+  ('pymysql.constants.FLAG',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\constants\\FLAG.py',
+   'PYMODULE'),
+  ('pymysql.constants.FIELD_TYPE',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\constants\\FIELD_TYPE.py',
+   'PYMODULE'),
+  ('pymysql',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\__init__.py',
+   'PYMODULE'),
+  ('pymysql.connections',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\connections.py',
+   'PYMODULE'),
+  ('pymysql._socketio',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\_socketio.py',
+   'PYMODULE'),
+  ('pymysql.util',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\util.py',
+   'PYMODULE'),
+  ('pymysql.protocol',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\protocol.py',
+   'PYMODULE'),
+  ('pymysql.optionfile',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\optionfile.py',
+   'PYMODULE'),
+  ('configparser',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\configparser.py',
+   'PYMODULE'),
+  ('pymysql.charset',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\charset.py',
+   'PYMODULE'),
+  ('pymysql._auth',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\_auth.py',
+   'PYMODULE'),
+  ('pymysql.times',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\times.py',
+   'PYMODULE'),
+  ('pymysql.converters',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\converters.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\numbers.py',
+   'PYMODULE'),
+  ('pymysql._compat',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\pymysql\\_compat.py',
+   'PYMODULE'),
+  ('PyQt5.uic.properties',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\properties.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v3.ascii_upper',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\port_v3\\ascii_upper.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v3',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\port_v3\\__init__.py',
+   'PYMODULE'),
+  ('PyQt5.uic.icon_cache',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\icon_cache.py',
+   'PYMODULE'),
+  ('PyQt5.uic.exceptions',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\exceptions.py',
+   'PYMODULE'),
+  ('PyQt5.uic',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\__init__.py',
+   'PYMODULE'),
+  ('PyQt5.uic.objcreator',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\objcreator.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Loader.loader',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\Loader\\loader.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Loader',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\Loader\\__init__.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Loader.qobjectcreator',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\Loader\\qobjectcreator.py',
+   'PYMODULE'),
+  ('PyQt5.uic.uiparser',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\uiparser.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v2.string_io',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\port_v2\\string_io.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v2',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\port_v2\\__init__.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v3.string_io',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\port_v3\\string_io.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler.compiler',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\Compiler\\compiler.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler.qobjectcreator',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\Compiler\\qobjectcreator.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v2.as_string',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\port_v2\\as_string.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v3.as_string',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\port_v3\\as_string.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler.qtproxies',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\Compiler\\qtproxies.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v2.proxy_base',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\port_v2\\proxy_base.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler.proxy_metaclass',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\Compiler\\proxy_metaclass.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v3.proxy_base',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\port_v3\\proxy_base.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler.misc',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\Compiler\\misc.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler.indenter',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\Compiler\\indenter.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\uic\\Compiler\\__init__.py',
+   'PYMODULE'),
+  ('PyQt5',
+   'e:\\work\\androidstudio\\distsociety\\distserverapp\\venv\\lib\\site-packages\\PyQt5\\__init__.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\threading.py',
+   'PYMODULE'),
+  ('os',
+   'C:\\Users\\Tahir '
+   'PC\\AppData\\Local\\Programs\\Python\\Python37\\lib\\os.py',
+   'PYMODULE')])

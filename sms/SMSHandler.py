@@ -28,7 +28,7 @@ class SMSHandler:
         PIN = None
         print(PORT, BAUDRATE)
         # Uncomment the following line to see what the modem is doing:
-        logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.DEBUG)
+        # logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.DEBUG)
         self.modem = GsmModem(PORT, BAUDRATE)
         self.modem.smsTextMode = False
         self.modem.connect(PIN)
