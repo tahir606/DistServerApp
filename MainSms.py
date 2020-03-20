@@ -16,7 +16,6 @@ PIN = None  # SIM card PIN (if any)
 
 from gsmmodem.modem import GsmModem
 
-
 class MainSms:
     def __init__(self):
         print('stuff')

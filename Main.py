@@ -1,11 +1,9 @@
-import os
 import sys
 import time
-from threading import Thread
+import traceback
 
 from PyQt5 import QtWidgets, uic
 from PyQt5.QtCore import QThread, pyqtSignal
-from PyQt5.uic.properties import QtCore
 
 from database.MySQLCon import MySQLCon
 
@@ -14,6 +12,7 @@ from prog.EmailHandler import EmailHandler
 from sms.OTACGen import OTACGen
 from sms.SMSHandler import SMSHandler
 
+# This is the class used to start the program
 
 qtCreatorFile = "./gui/Dash.ui"  # Enter file here.
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
@@ -24,7 +23,7 @@ class ProcessSignUpRequests(QThread):
 
     def __init__(self):
         QThread.__init__(self)
-        self.id = '';
+        self.id = ''
         self.phone = ''
         self.emailAddress = ''
 
@@ -34,7 +33,14 @@ class ProcessSignUpRequests(QThread):
     def processOTACRequests(self):
         sql = MySQLCon()
         otac = OTACGen()
-        sms = SMSHandler()
+
+        try:
+            sms = SMSHandler()
+            isSMS = True
+        except Exception as e:
+            self.displayMsgSignal.emit("Error: " + str(e))
+            isSMS = False
+            traceback.print_exc()
         email = EmailHandler()
 
         while True:
@@ -50,8 +56,13 @@ class ProcessSignUpRequests(QThread):
                     email.sendEmail(self.emailAddress, 'Dist Network OTAC',
                                     "Distributors Network\nPlease enter the following OTAC to authenticate "
                                     "your login:\n " + key)
-                    sms.sendSms(self.phone, "Distributors Network\nPlease enter the following OTAC to authenticate "
-                                            "your login:\n " + key)
+                    msg = "OTAC Email Sent to: " + self.emailAddress
+                    if isSMS:
+                        sms.sendSms(self.phone, "Distributors Network\nPlease enter the following OTAC to authenticate "
+                                                "your login:\n " + key)
+                        msg = msg + "\nOTAC SMS Sent to: " + self.phone
+
+                    self.displayMsgSignal.emit(msg)
 
                 smswaiting = sql.checkForSmsToBeSent()
                 for row in smswaiting:
@@ -60,18 +71,33 @@ class ProcessSignUpRequests(QThread):
                     self.emailAddress = row['SEMAIL']
                     subject = row['SUBJ']
                     body = row['SBODY']
-                    # Update SMS Flag to not send a notification Again
-                    sql.updateSmsFlag(code)
-                    email.sendEmail(self.emailAddress, subject, str(body))
-                    sms.sendSms(self.phone, body)
 
-                if self.phone != '':
-                    self.displayMsgSignal.emit("SMS Sent to: " + self.phone + "\n" +
-                                               "Email Sent to: " + self.emailAddress)
+                    msg = ""
+                    isEmail = True
+                    try:
+                        email.sendEmail(self.emailAddress, subject, str(body))
+                        msg = "Notif Email Sent to: " + self.emailAddress
+                    except Exception as e:
+                        isEmail = False
+                        self.displayMsgSignal.emit("Error: " + str(e))
+                        traceback.print_exc()
+
+                    if isSMS:
+                        sms.sendSms(self.phone, body)
+                        msg = "\nNotif SMS Sent to: " + self.phone
+
+                    self.displayMsgSignal.emit(msg)
+
+                    if isEmail or isSMS:
+                        # Update SMS Flag to not send a notification Again
+                        sql.updateSmsFlag(code)
+                    else:
+                        self.displayMsgSignal.emit("Unable to notify " + self.phone + " or " + self.emailAddress)
+
                 time.sleep(5)
             except Exception as e:
-                print(e)
                 self.displayMsgSignal.emit('Exception: ' + str(e))
+                traceback.print_exc()
                 time.sleep(10)
 
     def run(self):

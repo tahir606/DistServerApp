@@ -12,6 +12,7 @@ import logging
 
 from prog.FileHandler import FileHandler
 
+
 # PORT = 'COM11'
 # BAUDRATE = 115200
 # PIN = None  # SIM card PIN (if any)
@@ -31,7 +32,11 @@ class SMSHandler:
         # logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.DEBUG)
         self.modem = GsmModem(PORT, BAUDRATE)
         self.modem.smsTextMode = False
-        self.modem.connect(PIN)
+        try:
+            self.modem.connect(PIN)
+        except Exception as e:
+            print(str(e))
+            raise e
 
     def sendSms(self, destination, body):
         try:
@@ -45,3 +50,8 @@ class SMSHandler:
         except Exception as e:
             print("An error occurred while sending the message: " + str(e))
             raise e
+
+
+if __name__ == '__main__':
+    sms = SMSHandler()
+    sms.sendSms('03342132778', 'Test SMS')

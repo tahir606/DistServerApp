@@ -1,6 +1,4 @@
-import smtplib
-
-from string import Template
+import smtplib, ssl
 
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -10,6 +8,9 @@ PORT = 26
 MY_ADDRESS = 'sales@burhanisolutions.com.pk'
 PASSWORD = 'burhanisales'
 
+# Create a secure SSL context
+# context = ssl.create_default_context()
+
 
 class EmailHandler:
     def __init__(self):
@@ -17,9 +18,11 @@ class EmailHandler:
 
     def sendEmail(self, to, subject, body):
         # set up the SMTP server
-        s = smtplib.SMTP(host=HOST, port=PORT)
-        s.starttls()
-        s.login(MY_ADDRESS, PASSWORD)
+        server = smtplib.SMTP(host=HOST, port=PORT)
+        server.ehlo()  # Can be omitted
+        server.starttls()  # Secure the connection
+        server.ehlo()  # Can be omitted
+        server.login(MY_ADDRESS, PASSWORD)
 
         msg = MIMEMultipart()  # create a message
 
@@ -32,11 +35,11 @@ class EmailHandler:
         msg.attach(MIMEText(body, 'plain'))
 
         # send the message via the server set up earlier.
-        s.send_message(msg)
+        server.sendmail(MY_ADDRESS, to, msg.as_string())
         del msg
 
         # Terminate the SMTP session and close the connection
-        s.quit()
+        server.quit()
 
 
 if __name__ == '__main__':

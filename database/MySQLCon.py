@@ -7,7 +7,7 @@ class MySQLCon:
 
     def connectToDB(self):
         try:
-            connection = pymysql.connect(host='192.168.100.24',
+            connection = pymysql.connect(host='localhost',
                                          user='crm',
                                          password='crm123!@#',
                                          db='dist_network',
